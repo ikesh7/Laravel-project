@@ -1,0 +1,112 @@
+
+.layout_form
+{
+    background:linear-gradient(to right, rgb(0, 119, 255), rgba(0, 158, 179, 0.815));
+    border-radius: 0.3em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.type_room
+{
+    border-radius: 0.3em;
+                            padding-left: 2.2em;
+                            height: 50px;
+                            width: 260px;
+                            font-size: small;
+                            padding-top: 0.5em;
+                            border-style: hidden;
+
+    
+}
+
+.name_room
+{
+    border-radius: 0.3em;
+                            padding-left: 2.5em;
+                            height: 50px;
+                            width: 270px;
+                            font-size: small;
+                            padding-top: 1.1em;
+                            border-style: hidden;
+}
+
+.custom_room
+{
+    border-radius: 0.3em;
+                            padding-left: 2.2em;
+                            height: 50px;
+                            width: 260px;
+                            font-size: small;
+                            padding-top: 0.5em;
+                            border-style: hidden;
+
+}
+
+.capacity_room
+{
+    border-radius: 0.3em;
+                            padding-left: 2.5em;
+                            height: 50px;
+                            width: 270px;
+                            font-size: small;
+                            padding-top: 0.5em;
+                            border-style: hidden;
+}
+
+.price_room
+{
+    border-radius: 0.3em;
+    padding-left: 2.2em;
+    height: 50px;
+    width: 260px;
+    font-size: small;
+    padding-top: 0.5em;
+    border-style: hidden;
+}
+
+.number_room
+{
+    border-radius: 0.3em;
+    padding-left: 2.5em;
+    height: 50px;
+    width: 270px;
+    font-size: small;
+    padding-top: 0.5em;
+    border-style: hidden;
+}
+
+.room_label
+{
+    border-radius: 0.3em;
+    padding-left: 2.2em;
+    height: 50px;
+    width: 260px;
+    font-size: small;
+    padding-top: 0.5em;
+    border-style: hidden;
+}
+
+.btn_add
+{
+    padding-left: 15em;
+    padding-right: 15em;
+    margin-bottom: 1em;
+}
+
+.add_btn
+{
+    background: linear-gradient(to right, rgb(0, 119, 255), rgba(0, 158, 179, 0.815));
+    
+}
+
+.add_btn
+{
+    transition-duration: 0.3s;
+}
+
+.add_btn:hover
+{
+    background:linear-gradient(to left, rgb(0, 87, 187),  rgb(0, 119, 255));
+    color: white;
+}

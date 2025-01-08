@@ -1,0 +1,77 @@
+//details page
+.icon_size {
+    font-size: 1.5em;
+    align-items: center;
+}
+
+.room_detail {
+    padding: 0;
+    border: solid 1px rgb(0, 119, 255, 0.4);
+}
+
+.images_details {
+    margin: 0;
+    padding: 1.5px;
+
+    img {
+        width: 100%;
+        border-radius: 0.3em;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+
+.header_reserve {
+    margin-right: 4em;
+}
+
+.search_button > input {
+    margin-left: 4em;
+}
+
+.guest_review {
+    margin-left: auto;
+    margin-right: 6.5em;
+}
+
+.search_container {
+    background: rgb(0, 119, 255, 0.02);
+}
+
+.text_good {
+    margin-left: 2.78em;
+    text-align: end;
+}
+
+.form_container {
+    background: linear-gradient(to left, rgb(0, 87, 187), rgb(0, 119, 255));
+    border-radius: 0.3em;
+    padding: 15px;
+    width: 75%;
+    margin-left: 1em;
+}
+.form_container_details {
+    background: linear-gradient(to left, rgb(0, 87, 187), rgb(0, 119, 255));
+    border-radius: 0.3em;
+    padding: 15px;
+    offset: 1;
+    margin-left: 1em;
+}
+
+.filter_container {
+    background: linear-gradient(
+        to left,
+        rgb(0, 87, 187, 0.9),
+        rgb(0, 119, 255, 0.9)
+    );
+    border-radius: 0.3em;
+    padding: 10px;
+    width: 75%;
+    margin-left: 1em;
+}
+
+.health_measure {
+    border: 1px solid #dee2e6 !important;
+    border-radius: 0.3em;
+}

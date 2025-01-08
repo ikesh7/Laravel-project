@@ -1,0 +1,82 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.rem_me
+{
+    padding-left: 9em;
+
+}
+
+.for1
+{
+    padding-left: 7.4em;
+    padding-top: 1.8em;
+}
+
+
+
+.login
+{
+    background:white;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    border-radius: 1em;
+    
+}
+
+.log
+{
+    
+    background: linear-gradient(to left, rgb(0, 119, 255), rgba(0, 158, 179, 0.815));
+
+    border-radius: 0.3em;
+    margin-bottom: 2.3em;
+    margin-top: 12em;
+    align-items: center;
+    font-family:"Rubik", sans-serif;
+}
+
+
+
+span
+{
+    color: rgb(0, 119, 255);
+    
+    font-weight: bold;
+}
+
+h1
+{
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;   
+}
+
+
+.but1
+{
+    margin-top: 3.5em;
+    height: 40px;
+    width: 400px;
+    border-radius: 0.3em;
+    background: linear-gradient(to left, rgb(0, 119, 255), rgba(0, 158, 179, 0.815));
+   
+    
+    
+    
+}
+
+.but1
+{
+    transition-duration: 0.3s;
+}
+
+.but1:hover
+{
+    background:linear-gradient(to right, rgb(0, 87, 187),  rgb(0, 119, 255));
+    color: white;
+}

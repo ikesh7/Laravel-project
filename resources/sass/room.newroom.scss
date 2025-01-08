@@ -1,0 +1,36 @@
+
+
+.yes_value
+{
+    background: rgb(35, 122, 122);
+    border-radius: 3em;
+    margin-left: 0.5em;
+}
+
+.yes_value
+{
+    transition-duration: 0.3s;
+}
+
+.yes_value:hover
+{
+    background-color:rgba(24, 108, 218, 0.993);
+    color: white;
+}
+.no_value
+{
+    background: rgb(35, 122, 122);
+    border-radius: 3em;
+    margin-left: 0.5em;
+}
+
+.no_value
+{
+    transition-duration: 0.3s;
+}
+
+.no_value:hover
+{
+    background-color: rgba(24, 108, 218, 0.993);
+    color: white;
+}

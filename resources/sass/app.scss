@@ -1,0 +1,255 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//login
+@import './login.scss' ; 
+
+//register user end
+@import './register.scss' ; 
+
+//user dashboard
+@import './userdash.scss';
+
+//navigation
+@import './navigation.scss';
+
+//agent dashboard
+@import './agentdash.scss' ; 
+
+//auth-card
+@import './auth-card.scss' ; 
+
+//layout form 
+@import './layout.index.scss' ; 
+
+//layout list
+@import './layout.list.scss' ; 
+
+
+//amenity add
+@import './amenity.add.scss' ; 
+
+//room - new room
+@import './room.newroom.scss' ;
+
+@import './autocomplete.scss' ;
+
+//search results page
+@import './search-results.scss' ;
+// hotel rooms page
+@import './hotelrooms.scss' ;
+
+//facilities-services index page
+@import './facilities-services.index.scss' ;
+
+//roomtype - update room type
+@import './roomtype-updateroomtype.scss' ; 
+ 
+
+
+
+.dropdown_size
+{
+  width: fit-content;
+  text-align: center;
+}
+
+.navbar_button:hover
+{
+  margin: auto;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 0.3em;
+  
+}
+.nav_bar
+{
+  background:rgb(0, 87, 187);
+}
+
+.user_dash_header
+{
+  background:linear-gradient(to left, rgb(0, 87, 187),  rgb(0, 119, 255));
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    padding-top: 0.6em;
+    padding-bottom: 0.4em;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.body_user
+{
+    background: white;
+  }
+
+.first_layer
+{
+  background:linear-gradient(to left, rgb(0, 87, 187),  rgb(0, 119, 255));
+    border-radius: 1em;
+    border-style: hidden;
+}
+ 
+.item_dashboard
+{
+  background:linear-gradient(to left, rgb(0, 87, 187),  rgb(0, 119, 255));
+}
+
+.item_dashboard {
+    transition-duration: 0.3s;
+  }
+  
+  .item_dashboard:hover {
+    background:linear-gradient(to left, rgb(0, 87, 187),  rgb(0, 119, 255));
+    color: white;
+  }
+
+
+  .form_settings
+  {
+    background:linear-gradient(to left, rgb(0, 87, 187),  rgb(0, 119, 255));  
+    
+  }
+
+  .view_form_settings
+  {
+    background:linear-gradient(to left, rgb(0, 87, 187),  rgb(0, 119, 255));   
+  }
+  
+  .view_settings
+  {
+    padding-left: 3.8em;   
+    
+  }
+
+  .view_form_settings
+  {
+      transition-duration: 0.3s;
+  }
+
+  .view_form_settings:hover{
+    background:linear-gradient(to left, rgb(0, 87, 187),  rgb(0, 119, 255));  
+    color: white;
+  }
+
+  .form_items
+  {
+    background:linear-gradient(to left, rgb(0, 87, 187),  rgb(0, 119, 255));   
+  }
+
+  .layout_list
+  {
+    background:linear-gradient(to left, rgb(0, 87, 187),  rgb(0, 119, 255));   
+  }
+
+.layout_list
+{
+    transition-duration: 0.3s;
+    
+}
+
+.layout_list:hover
+{
+    background:linear-gradient(to left, rgb(0, 87, 187),  rgb(0, 119, 255));
+    color: white;   
+}
+
+.layout_price
+{
+    padding-left: 3.2em;
+}
+
+.service_list
+{
+    background:linear-gradient(to left, rgb(0, 87, 187),  rgb(0, 119, 255));  
+    }
+
+.service_list
+{
+    transition-duration: 0.3s;
+}
+
+.service_list:hover
+{
+    background:linear-gradient(to left, rgb(0, 87, 187),  rgb(0, 119, 255));
+    color: white;   
+}
+
+.facility_service
+{
+    padding-left: 2.2em;
+}
+
+.amenity_list
+{
+    background:linear-gradient(to left, rgb(0, 87, 187),  rgb(0, 119, 255));  
+    }
+
+.amenity_list
+{
+    transition-duration: 0.3s;
+}
+
+.amenity_list:hover
+{
+    background:linear-gradient(to left, rgb(0, 87, 187),  rgb(0, 119, 255));
+    color: white;  
+}
+
+.the_amenity_list
+{
+    padding-left: 5em;
+}
+
+.bed_item
+{
+    background:linear-gradient(to left, rgb(0, 87, 187),  rgb(0, 119, 255));  
+}
+
+.bed_item
+{
+    transition-duration: 0.3s;
+}
+
+.bed_item:hover
+{
+    background:linear-gradient(to left, rgb(0, 87, 187),  rgb(0, 119, 255)); 
+    color: white; 
+}
+
+.room_item
+{
+    background:linear-gradient(to left, rgb(0, 87, 187),  rgb(0, 119, 255));  
+    }
+
+.room_list
+{
+  background:linear-gradient(to right, rgb(0, 87, 187),  rgb(0, 119, 255));
+    }
+
+.room_list
+{
+    transition-duration: 0.3s;
+}
+
+.room_list:hover
+{
+    background:linear-gradient(to left, rgb(0, 87, 187),  rgb(0, 119, 255));
+    color: white; 
+}
+
+.room_type
+{
+    padding-left: 3.7em;
+}
+
+
+
+
+
